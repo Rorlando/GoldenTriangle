@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
+#import <Cocoa/Cocoa.h>
 
-@interface TriangleViewController : GLKViewController
+@interface TriangleViewController : GLKViewController//NSOpenGLView 
+
+- (void) drawRect: (NSRect) bounds;
 
 @end
